@@ -1,0 +1,23 @@
+{
+    "MODEL_NAME": "bert-base-chinese",
+
+    "MAX_LENGTH": 128,
+    "BATCH_SIZE": 4,
+    "ACCUMULATION_STEPS": 6,
+    "LR": 2e-5,
+
+    "EPOCHS": 8,
+    "WARMUP_STEPS": 500,
+
+    "MAX_GRAD_NORM": 1.0,
+
+    "TRAIN_SET": "./reshaped-data/binary-c3-d-train.csv",
+    "VALID_SET": "./reshaped-data/binary-c3-d-dev.csv",
+
+    "VALID_SET_JSON": "./xie-model/data/c3-d-dev.json",
+    "TEST_SET_JSON": "./xie-model/data/c3-d-test.json",
+
+    "OUTDIR": "./bert_on_reshaped_c3_output/",
+
+    "FP16": false
+}
