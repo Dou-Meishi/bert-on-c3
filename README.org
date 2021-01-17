@@ -11,15 +11,16 @@ C3 数据集来源：[[https://arxiv.org/pdf/1904.09679.pdf][paper]], [[https://
 
 * 结果比较
 | method      | Acc on Dev | Acc on Test |
-| RandomBot   |            |             |
-| CountBot    |            |             |
-| BERT [fn:1] |            |             |
+| RandomBot   |       27.2 | 27.4        |
+| CountBot    |       33.7 | 34.4        |
+| Baseline    |            |             |
+| BERT [fn:1] |       65.7 | 64.5        |
 | Bi-Choice   |            |             |
 
 [fn:1] 结果来自 [[https://arxiv.org/pdf/1904.09679.pdf][C3 论文]]
 
 RandomBot, CountBot 方法存在随机性,
-这里给出的是五次运行取平均的结果，
+这里给出的是十次次运行取平均的结果，
 详见 [[./inspect_dataset.ipynb]]
 * 文件说明
 + ~./inspect_dataset.ipynb~ :: 介绍 C3 数据集，
