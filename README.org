@@ -7,15 +7,28 @@
 
 2020-2021 NLP 课程作业.
 
-C$^3$ 数据集来源：[[https://arxiv.org/pdf/1904.09679.pdf][paper]], [[https://github.com/nlpdata/c3][github]]
+C3 数据集来源：[[https://arxiv.org/pdf/1904.09679.pdf][paper]], [[https://github.com/nlpdata/c3][github]]
 
+* 结果比较
+| method      | Acc on Dev | Acc on Test |
+| RandomBot   |            |             |
+| CountBot    |            |             |
+| BERT [fn:1] |            |             |
+| Bi-Choice   |            |             |
+
+[fn:1] 结果来自 [[https://arxiv.org/pdf/1904.09679.pdf][C3 论文]]
+
+RandomBot, CountBot 方法存在随机性,
+这里给出的是五次运行取平均的结果，
+详见 [[./inspect_dataset.ipynb]]
 * 文件说明
-+ ~./inspect_dataset.ipynb~ :: 介绍 C$^3$ 数据集，并展示 RandomBot, CountBot 方法
++ ~./inspect_dataset.ipynb~ :: 介绍 C3 数据集，
+     并展示 RandomBot, CountBot 方法
 + ~./baseline_nb.ipynb~ :: 展示 baseline 方法
 + ~./bichoice_nb.ipynb~ :: 展示 bi-choice 方法
 + ~./bichoice/~ :: Bi-choice 方法实现代码
 + ~./baseline/~ :: Baseline 方法实现代码
-+ ~./data/~ :: 原始 C$^3$ 数据集文件
++ ~./data/~ :: 原始 C3 数据集文件
 + ~./outputs/~ :: 空文件夹，储存脚本运行输出
 * 运行说明
 1. 数据集介绍及 RandomBot, CountBot 方法见 ~./inspect_dataset.ipynb~
