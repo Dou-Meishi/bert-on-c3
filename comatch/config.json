@@ -1,6 +1,6 @@
 {
     "model_name": "bert-base-chinese",
-    "data_dir": "../data/c3_data/",
+    "data_dir": "../data/",
 
     "max_length": 512,
 
@@ -21,7 +21,7 @@
 
     "seed": 42,
 
-    "save_dir": "../output/checkpoints/",
-    "output_dir": "../output/outputs/",
-    "log_dir": "../output/logs"
+    "save_dir": "../outputs/comatch/checkpoints/",
+    "output_dir": "../outputs/comatch/outputs/",
+    "log_dir": "../outputs/comatch/logs"
 }
