@@ -17,7 +17,7 @@
     "VALID_SET_JSON": "../data/dev.json",
     "TEST_SET_JSON": "../data/test.json",
 
-    "OUTDIR": "../outputs/bert_on_reshaped_c3_output/",
+    "OUTDIR": "../outputs/bichoice_output/",
 
     "FP16": false
 }
