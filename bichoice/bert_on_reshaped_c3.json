@@ -11,13 +11,13 @@
 
     "MAX_GRAD_NORM": 1.0,
 
-    "TRAIN_SET": "./reshaped-data/binary-c3-d-train.csv",
-    "VALID_SET": "./reshaped-data/binary-c3-d-dev.csv",
+    "TRAIN_SET": "../outputs/csv-data/binary-train.csv",
+    "VALID_SET": "../outputs/csv-data/binary-dev.csv",
 
-    "VALID_SET_JSON": "./xie-model/data/c3-d-dev.json",
-    "TEST_SET_JSON": "./xie-model/data/c3-d-test.json",
+    "VALID_SET_JSON": "../data/dev.json",
+    "TEST_SET_JSON": "../data/test.json",
 
-    "OUTDIR": "./bert_on_reshaped_c3_output/",
+    "OUTDIR": "../outputs/bert_on_reshaped_c3_output/",
 
     "FP16": false
 }
