@@ -8,9 +8,11 @@ import torch
 import transformers
 from tqdm import tqdm
 
-# modules in current directory
-from . import utils
-from .data_processor import (
+# modules in this directory
+# NOTE: You can only run this script in its directory.
+#       Call from outside causes following import commands fails
+import utils
+from data_processor import (
     C3BinaryExample,
     C3BinaryDataProcessor
 )
