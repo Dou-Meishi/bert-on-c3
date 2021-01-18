@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+#+TITLE: 调研
+#+Author: Dou Meishi
+#+STARTUP: indent
+#+STARTUP: overview
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+
+*Question Answering/Reading Comprehension*. 应用
+
+基于某些数据对问题作出回答。
+
+English/Chinese
+
+[[https://chinesenlp.xyz/#/zh/docs/question_answering][问题简介 (中文)]]
+
+[[http://nlpprogress.com/english/question_answering.html][问题简介 (英文)]]
+
+* DONE Collect Dataset
+| Name    | Language | Paper | Description | Download | More Info                           |
+|---------+----------+-------+-------------+----------+-------------------------------------|
+| RACE    | English  | [[https://www.aclweb.org/anthology/D17-1082.pdf][LINK]]  | [[http://www.cs.cmu.edu/~glai1/data/race/][LINK]]        | [[http://www.cs.cmu.edu/~glai1/data/race/][LINK]]     | [[http://www.qizhexie.com/data/RACE_leaderboard.html][Leaderboard]]                         |
+| C^3     | Chinese  | [[https://arxiv.org/pdf/1904.09679.pdf][LINK]]  | [[https://dataset.org/c3/][LINK]]        | [[https://github.com/nlpdata/c3][LINK]]     |                                     |
+| SemEval | English  | [[https://www.aclweb.org/anthology/L18-1564.pdf][LINK]]  |             | [[http://www.sfb1102.uni-saarland.de/?page_id%3D2582][LINK]]     | also called MCScript, [[https://www.aclweb.org/anthology/S18-1119.pdf][overview paper]] |
+| COIN    | English  | [[https://www.aclweb.org/anthology/S19-1012.pdf][LINK]]  | [[https://coinnlp.github.io/task1.html][LINK]]        | [[http://www.sfb1102.uni-saarland.de/?page_id%3D2582][LINK]]     | also called MCScript v2.0           |
+| CMRC    | Chinese  | [[https://www.aclweb.org/anthology/D19-1600.pdf][LINK]]  | [[https://github.com/ymcui/cmrc2018][LINK]]        | [[https://github.com/ymcui/cmrc2018][LINK]]     |                                     |
+| NLPCC   | Chinese  |       | [[http://tcci.ccf.org.cn/conference/2016/dldoc/evagline2.pdf][LINK]]        | [[https://github.com/jkszw2014/bert-kbqa-NLPCC2017/tree/master/NER_BERT-BiLSTM-CRF/NLPCC2016KBQA][LINK]]     |                                     |
+* TODO Follow Baseline
+** DCMN+ 
+[[https://github.com/Qzsl123/dcmn][github link]]
+
++ [ ] Base BERT encoder [[https://github.com/NoviScl/BERT-RACE][link]]
++ [ ] DCMN w/o Sentence Selection
+** Follow works on C^3
+[[https://github.com/nlpdata/c3][github link]]
+
++ [ ] Base BERT encoder [[https://github.com/NoviScl/BERT-RACE][link]]

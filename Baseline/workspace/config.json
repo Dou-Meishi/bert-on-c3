@@ -1,0 +1,27 @@
+{
+    "model_name": "bert-base-chinese",
+    "data_dir": "../data/c3_data/",
+
+    "max_length": 512,
+
+    "num_train_epochs": 8,
+    "train_batch_size": 4,
+
+    "eval_batch_size": 16,
+
+    "learning_rate": 2e-5,
+    "gradient_accumulation_steps": 6,
+    "num_warmup_steps": 500,
+
+    "max_grad_norm": 1.0,
+
+    "n_class": 4,
+
+    "fp16": 1,
+
+    "seed": 42,
+
+    "save_dir": "../output/checkpoints/",
+    "output_dir": "../output/outputs/",
+    "log_dir": "../output/logs"
+}
