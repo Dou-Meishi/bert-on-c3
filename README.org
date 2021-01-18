@@ -11,11 +11,12 @@ C3 数据集来源：[[https://arxiv.org/pdf/1904.09679.pdf][paper]], [[https://
 
 * 结果比较
 | method      | Acc on Dev | Acc on Test |
-| RandomBot   |       27.2 | 27.4        |
-| CountBot    |       33.7 | 34.4        |
-| Baseline    |            |             |
-| BERT [fn:1] |       65.7 | 64.5        |
-| Bi-Choice   |            |             |
+| RandomBot   |       27.2 |        27.4 |
+| CountBot    |       33.7 |        34.4 |
+| Baseline    |       64.5 |        63.8 |
+| BERT [fn:1] |       65.7 |        64.5 |
+| Bi-Choice   |       59.6 |        60.0 |
+| Co-Match    |       59.9 |        60.3 |
 
 [fn:1] 结果来自 [[https://arxiv.org/pdf/1904.09679.pdf][C3 论文]]
 
